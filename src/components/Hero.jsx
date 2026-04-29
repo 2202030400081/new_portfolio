@@ -83,7 +83,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-full animate-pulse opacity-20 blur-2xl"></div>
             <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-white/10 glass p-2">
                <img 
-                 src="profile.jpg" 
+                 src={`${import.meta.env.BASE_URL}profile.jpg`} 
                  alt="Mishra Aditya" 
                  className="w-full h-full object-cover rounded-xl"
                />

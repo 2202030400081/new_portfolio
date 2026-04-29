@@ -66,7 +66,7 @@ const About = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
             <div className="relative glass-card p-4 mb-8 overflow-hidden group">
               <img 
-                src="profile.jpg" 
+                src={`${import.meta.env.BASE_URL}profile.jpg`} 
                 alt="Aditya Mishra" 
                 className="w-full h-64 object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
               />
