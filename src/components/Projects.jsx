@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'Amazon Clone',
       description: 'Built a responsive Amazon clone using HTML, CSS, and modern UI design techniques.',
-      image: '/projects/amazon-clone.png',
+      image: 'projects/amazon-clone.png',
       tech: ['HTML', 'CSS', 'JavaScript'],
       github: '#',
       demo: '#',
